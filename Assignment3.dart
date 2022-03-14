@@ -273,4 +273,56 @@ void main() {
 // The total second is 6.
 
   
+  
+  // Question # 25
+
+final principle = 2;
+final rate = 3;
+final timee = 6;
+final am = principle * ((1.0 + rate/100));
+final inter = am-principle;
+
+print("The Compound interest amount = Rs. $inter");
+// OUTPUT: The Compound interest amount = Rs. 0.06000000000000005
+
+
+
+// Question # 26
+
+final numeric = 21;
+final letter = 10;
+
+print('The number is: $numeric in ASCII');
+// OUTPUT:The number is: 21 in ASCII
+
+
+
+// Question # 27
+
+print('Number Square Cube \n1       1      1 \n2       4      8\n3       9      27\n4       16    64\n5       25    125 ');
+// OUTPUT:
+// Number Square Cube 
+// 1       1      1 
+// 2       4      8
+// 3       9      27
+// 4       16    64
+// 5       25    125
+
+
+
+// Question # 28
+
+final computer = 65;
+final science = 90;
+final math = 100;
+final physics = 80;
+final chemistry = 60;
+final totalMark = computer+ science+ math +physics +chemistry;
+final avg = totalMark/5.0;
+
+print('Total Marks $totalMark.');
+print('Average Marks $avg.');
+// OUTPUT:
+// Total Marks 395.
+// Average Marks 79.0.
 }
